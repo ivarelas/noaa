@@ -19,7 +19,7 @@ Echoe.new('noaa', NOAA::VERSION) do |p|
                             Gem::Dependency.new('geokit', '>= 1.5.0')]
   p.development_dependencies = [Gem::Dependency.new('jeremymcanally-context', '>= 0.0.6'),
                                 Gem::Dependency.new('jeremymcanally-matchy', '>= 0.0.1'),
-                                Gem::Dependency.new('ruby-debug', '~> 0.10')]
+                                Gem::Dependency.new('byebug', '>= 6.0')]
 end
 
 desc 'Create gemspec and copy it into project root'
